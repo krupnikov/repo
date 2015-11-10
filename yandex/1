@@ -1,0 +1,14 @@
+def createdict():
+    i = 0
+    dict = {}
+    l = len(keys)
+    while i < l:
+        dict = {keys[i]: values[i]}
+        i+=1
+    print(dict)
+    return dict
+M = 100
+keys = ['a', 'b', 'c', 'd']
+values = [1, 2, 3, 4]
+createdict()
+#print(dict)
